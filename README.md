@@ -23,3 +23,7 @@ and is modified from the standard online references on LSTM on text generation. 
 ![moby_sample_output_001](moby_sample_output_001.jpg)
 
 ![moby_sample_output_002](moby_sample_output_002.jpg)
+
+![moby_sample_output_003](moby_sample_output_003.jpg)
+
+![moby_sample_output_004](moby_sample_output_004.jpg)
