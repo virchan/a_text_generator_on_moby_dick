@@ -16,4 +16,4 @@ The model architecture is as follows
 
 ![2022-04-27 121658.jpg](lstm_summary.jpg)
 
-and is modified from the standard online references on LSTM on text generation. It takes around 6 hours to train one epoch under the standard runtime setting on Google Colab. A checkpoint trained for 4 epcohs is also provided here.
+and is modified from the standard online references on LSTM on text generation. It takes around 6 hours to train one epoch under the standard runtime setting on Google Colab. A checkpoint trained for 4 epochs is also provided here.
