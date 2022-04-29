@@ -4,7 +4,7 @@ A text generator trained on the novel "[*Moby Dick*](https://en.wikipedia.org/wi
 
 This project grows from my interest in how written English changes over time. I would like to see how an old-English speaker would continue a modern English phrase. This is simulated by deep learning.
 
-An LSTM is trained to read the entire *Moby Dick* novel. In the earlier version, the novel was split into lines. Thus it could only be trained on a single chapter. The current version splits the text file by complete sentences, using [a code provided by Greenberg on stackoverflow](https://stackoverflow.com/a/31505798). This improves the quality and the quantity of the training set.
+An LSTM is trained to read the entire *Moby Dick* novel. In the earlier version, the text file, obtained from [Project Gutenberg](https://gutenberg.org/), was split into lines. Thus it could only be trained on a single chapter. The current version splits the text file by complete sentences, using [a code provided by Greenberg on stackoverflow](https://stackoverflow.com/a/31505798). This improves the quality and the quantity of the training set.
 
 Secondly, the text generator output should make sense. In the standard online references on text generation, the function <code>numpy.argmax()</code> is applied to the predicted logits when predicting the next word. This causes two problems: the resulting text is gibberish, and often deterministic. To mitigate this, the presented text generator selects the next word by sampling from the predicted logits. As a result, the output text becomes dynamic and can be philosophical as well:
 
